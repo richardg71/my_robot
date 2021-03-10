@@ -1,0 +1,14 @@
+<launch>
+<node
+	pkg="beginner_tutorials"
+	type="listener"
+	name="listener"
+	launch-prefix="lxterminal -e"
+	/>
+<node
+	pkg="beginner_tutorials"
+	type="talker"
+	name="talker"
+	launch-prefix="lxterminal -e"
+	/>
+</launch>

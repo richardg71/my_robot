@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+0236e0efa2e82349fbd897789e0dbc47 CMakeFiles/clean_test_results
+adb76405466ae4026a46f5e988351e78 devel/share/roseus/ros/my_robot/manifest.l

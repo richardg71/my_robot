@@ -1,0 +1,18 @@
+<launch>
+<node
+	pkg="my_robot"
+	type="main_subscriber"
+	name="subscriber"
+	launch-prefix="lxterminal -e"
+	/>
+<node
+	pkg="my_robot"
+	type="continuous"
+	name="voice"
+	/>
+	<node
+	pkg="my_robot"
+	type="servo.py"
+	name="servo"
+	/>
+</launch>

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/ros_catkin_ws/src/my_robot/src/continuous.c
+stdio.h
+-
+string.h
+-
+signal.h
+-
+setjmp.h
+-
+sys/types.h
+-
+sys/time.h
+-
+sphinxbase/err.h
+-
+sphinxbase/ad.h
+-
+sphinxbase/cont_ad.h
+-
+pocketsphinx.h
+/home/pi/ros_catkin_ws/src/my_robot/src/pocketsphinx.h
+

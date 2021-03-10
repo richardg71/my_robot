@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/src/my_robot/devel
+
+Name: my_robot
+Description: Description of my_robot
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
